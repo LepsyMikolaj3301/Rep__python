@@ -22,6 +22,9 @@ for i in range(5):
         print("ODPOWIEDŹ NIEPOPRAWNA!")
         print("SPRÓBUJ SWOICH SIŁ W NASTĘPNYM PRZYKŁADZIE!")
         print("POPRAWNY WYNIK:" , x*y)
+    elif wynik == 69:
+        print('\t', "NICE")
+        print('\t', '( ͡° ͜ʖ ͡°)')
     print()
 
 print("Zobaczmy jak ci poszło!")
@@ -29,10 +32,10 @@ print("Zobaczmy jak ci poszło!")
 if wspol <= 1:
     print("Tabliczka mnożenia nie idzie ci za dobrze :( ")
     print("Następnym razem będzie lepiej ;)")
-    print("Miałeś:", wspol, "/5")
+    print("Miałeś:", wspol, "/ 5")
 elif wspol <= 3:
     print("Mniej więcej znasz tabliczka mnożenia, ale mogło być lepiej!")
-    print("Miałeś:", wspol, "/5")
+    print("Miałeś:", wspol, "/ 5")
 elif wspol <= 5:
     print("ZNAKOMICIE znasz tabliczkę mnożenia! BRAWO!")
-    print("Miałeś:", wspol, "/5")
+    print("Miałeś:", wspol, "/ 5")

@@ -1,0 +1,10 @@
+Note1: Poczytaj i ogarnij fajne moduły z PyPI
+Note2: BIF to funkcje które zmieniają oznakowanie ( np. str daje z wszystkiego stringa!)
+Note3: Kody błędów w stronach internetowych: 
+    1xx = informacyjne; 
+    2xx = komunikaty powodzenia;
+    3xx = komunikaty przekierowania; 
+    4xx = błąd klienta ( nasza wina )
+    5xx = błąd serwera
+Note4: strzałka w górę w CMD wynika w pokazaniu ostatniej komendy wpisanej
+Note5: Wartość __name__ (utrzymywana przez interpreter) określa przestrzeń nazw aktywną w danej chwili 

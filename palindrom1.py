@@ -4,7 +4,7 @@
 slowo = input("Podaj słowo: ")
 print()
 
-list1 = list(slowo)
-liczba = list1.count()  
-
-for i in range()
+if slowo == slowo[::-1]:
+    print('To slowo to palindrom!')
+else:
+    print("To slowo to nie palindrom!")
