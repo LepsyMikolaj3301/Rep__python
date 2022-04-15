@@ -6,7 +6,7 @@ def change2binar(the_number) -> int:
         num_of_need = int(num_of_need/2)
     return binar_code[::-1]
 
-base_num = int(input('Write the the base note: '))
+base_num = int(input('Write the base note: '))
 
 index_num = int(input('Write the number powering: '))
 bin_num_index = change2binar(index_num)[::-1]
