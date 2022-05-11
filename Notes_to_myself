@@ -7,4 +7,5 @@ Note3: Kody błędów w stronach internetowych:
     4xx = błąd klienta ( nasza wina )
     5xx = błąd serwera
 Note4: strzałka w górę w CMD wynika w pokazaniu ostatniej komendy wpisanej
-Note5: Wartość __name__ (utrzymywana przez interpreter) określa przestrzeń nazw aktywną w danej chwili 
+Note5: Wartość __name__ (utrzymywana przez interpreter) określa przestrzeń nazw aktywną w danej chwili
+Note6: escape() konwertuje znaki specjalne w HTMLu aby sie nie jebały z znakami które chcemy przeczytać

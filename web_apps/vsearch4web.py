@@ -22,11 +22,16 @@ def do_search() -> 'html':
                             the_letters=letters,
                             the_tittle=title,
                             the_results=results,)
+
 @app.route('/viewlog')
 def view_the_log() -> str:
+    contents = []
     with open('vsearch.log') as log:
-        contents = log.read()
-    return escape(contents)
+        for line in log:
+            contents.append([])
+            for item in line.split('|'):
+                contents[-1].append(escape(item))
+    return str(contents)
 
 
 @app.route('/')
